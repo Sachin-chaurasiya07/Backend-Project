@@ -5,7 +5,7 @@ import {uploadOnCloudinary} from '../utils/cloudinary.js'
 import { apiResponse } from "../utils/apiResponse.js";
 import {isPasswordCorrect} from "../models/user.model.js"
 
-const generateAccessAndRefreshTokens = async(userId){
+const generateAccessAndRefreshTokens = async(userId)=>{
     try {
         const user  = await User.findById(userId)
         const accessToken = user.generateAccessToken()
@@ -175,7 +175,7 @@ const loginUser = asyncHandler(async (req , res)=>{
 } )
 
 const loggedOutUser = asyncHandler(async(req , res)=>{
-    
+
 })
 
 
