@@ -3,7 +3,7 @@ import { apiErrors } from "../utils/apiError.js";
 import {User} from '../models/user.model.js'
 import {uploadOnCloudinary} from '../utils/cloudinary.js'
 import { apiResponse } from "../utils/apiResponse.js";
-import {isPasswordCorrect} from "../models/user.model.js"
+
 
 const generateAccessAndRefreshTokens = async(userId)=>{
     try {
