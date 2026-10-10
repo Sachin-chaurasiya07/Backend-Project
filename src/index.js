@@ -33,7 +33,6 @@ connectDB()
 
 
 
-
 //First approach to connect 
 /*
 import express from "express";
