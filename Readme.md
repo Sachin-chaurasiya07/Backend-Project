@@ -1,3 +1,3 @@
 ## Building backend project from scratch
 
- 
+ A hands-on backend development learning repository where I explored and practiced core backend concepts using **JavaScript, Node.js, Express.js, and MongoDB**. It includes practical implementations of REST APIs, routing, middleware, database operations, authentication, error handling, and other essential backend development concepts. Built to strengthen my understanding of how backend systems work and how to develop scalable, efficient web applications.
